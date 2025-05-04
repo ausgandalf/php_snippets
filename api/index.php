@@ -6,7 +6,7 @@
 </head>
 <body>
     <h2>Fetch Attendance Data</h2>
-    <form id="attendanceForm">
+    <form id="attendanceForm" action="api.php">
         <label for="courseid">Course ID:</label>
         <input type="text" id="courseid" name="courseid" required>
         <button type="submit">Fetch</button>
